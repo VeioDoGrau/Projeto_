@@ -187,7 +187,7 @@ while True:
                                 filme_encontrado['valor'] = float(novo_valor)
                                 print('\033[3m\033[33m(Valor atualizado com sucesso.)\033[0m')
 
-                        elif opcao_atualizacao == '1':
+                        elif opcao_atualizacao == '6':
                             novo_genero = input('\033[36mDigite o novo gênero: \033[0m').capitalize()
                             if Funcoes.validar_texto(novo_genero):
                                 print('\033[3m\033[31mPor favor, coloque um genêro válido.\033[0m')
